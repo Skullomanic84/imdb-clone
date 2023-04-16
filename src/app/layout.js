@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import './globals.css'
-import Provider from './theming/Provider';
+import Provider from '../theming/Provider';
+import Navbar from '@/components/navbar/Navbar';
 
 export const metadata = {
   title: 'IMDB Clone | Movies, Series, TV, Sports',
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Provider>
           <Header />
+          <Navbar />
           <main>{children}</main>
         </Provider>
       </body>
