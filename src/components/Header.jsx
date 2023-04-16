@@ -1,8 +1,8 @@
 import MenuItem from './navbar/MenuItem';
 import { AiFillHome, AiFillInfoCircle } from "react-icons/ai";
 import Link from 'next/link';
-import DarkMode from './DarkMode';
-import Provider from '@/app/theming/Provider';
+import DarkMode from '../theming/DarkMode';
+import Provider from '@/theming/Provider';
 
 const Header = () => {
   return (
